@@ -1,0 +1,190 @@
+$background: black;
+$font_size_small: 13.8px;
+$font_yellow: rgb(255, 205, 0);
+$font_white: rgb(255,255,255);
+$black: rgb(0,0,0);
+$width100: 100%;
+$width244: 244px;
+@font-face {
+  font-family: "Roboto Condensed Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("../../fonts/RobotoCondensed-Regular.ttf") format('truetype');
+}
+@font-face {
+	font-family: "Roboto Condensed Bold";
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url("../../fonts/RobotoCondensed-Bold.ttf") format('truetype');
+}
+$robotobold: 'Roboto Condensed Bold';
+$robotoregular: 'Roboto Condensed Regular';
+
+.yellowtext, .football-clubs li, .header {
+  color: $font_yellow;
+}
+.container, .rectangle, .header, .date-tour, .bwin-logo, .prognostic-table, .parameters, .points, .coefficients, .chances-block {
+  position: absolute;
+}
+.header, .date-tour, .parampoint, .paramcoefficient, .chance, .point, .coefficient {
+  text-align: center;
+}
+.rectangle, .parameter, .football-clubs li {
+  text-transform: uppercase;
+}
+.container {
+   background-color: $background;
+   background-image: url(../../img/dark-bg_700_500.png);
+   height: 500px;
+   width: 700px;
+}
+.rectangle{
+   margin: 32px 0px;
+   width: 139px;
+   padding: 12px 23px 9px 17px;
+   font-size: $font_size_small;
+   font-weight: bold;
+   background-color: rgb(255, 205, 0);
+   font-stretch: condensed;
+   text-align: left;
+   font-family: 'Roboto Condensed Bold';
+   background: linear-gradient(-75deg, transparent 10px, #ffcd00 0), linear-gradient(75deg, transparent 100px, transparent 0);
+}
+.header {
+  margin: auto;
+  font-size: $font_size_small + 12;
+  font-family: $robotoregular;
+  height: 25px;
+  top: 70px;
+  width: 100%;
+}
+.date-tour {
+  margin: auto;
+  font-size: $font_size_small + 6.1;
+  font-family: $robotoregular;
+  color: $font_white;
+  height: 21px;
+  top: 108px;
+  width: $width100;
+}
+.bwin-logo {
+  width: $width100;
+  height: 36px;
+  top:167px;
+  background-image: url(../../img/bwin_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.prognostic-table{
+  width: $width100;
+  height: 212px;
+  top: 243px;
+}
+
+
+.parameters {
+  left: 226px;
+  width: 405px;
+  margin-top: 0px;
+  height: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  list-style-type: none;
+}
+.parameter{
+  opacity: 0.5;
+  font-family: $robotoregular;
+  font-size: $font_size_small - 2.1;
+  font-stretch: condensed;
+  letter-spacing: 0.4px;
+  color: $font_white;
+}
+.parampoint{
+  margin: 0px 0px 10px 31px;
+  width: 42px;
+}
+.paramcoefficient{
+  margin: 0px 0px 10px 13px;
+  width: 55px;
+}
+.chance {
+  margin: 0px 0px 10px 13px;
+  width: $width244 - 168;
+  background-color: $font_yellow;
+}
+.listtype {
+  list-style-type: none;
+}
+.football-clubs{
+  width: $width244;
+  text-align: right;
+  margin-top: 25px;
+  margin-left: 13px;
+}
+.football-clubs li{
+    margin: 0px 13px 30px 0px;
+    height: 11px;
+    font-family:'Roboto Condensed Regular';
+    font-size: $font_size_small - 0.1;
+    font-stretch: condensed;
+    letter-spacing: 0.4px;
+}
+.points, .coefficients, .chances-block {
+  top: 19px;
+}
+.point, .coefficient, .chance-value {
+  border-radius: 2.7px;
+  margin: 0px 13px 13px 0px;
+  height: 11px;
+  list-style-type: none;
+  font-size: $font_size_small - 0.1;
+}
+.points{
+  width: $width244 - 202;
+  left: $width244 + 13;
+}
+.point {
+  width: $width244 - 202;
+  background-color: $font_yellow;
+  padding: 9px 0px 9px 0px;
+  font-family: $robotobold;
+  font-weight: bold;
+}
+.coefficients {
+  width: $width244 - 189;
+  left: $width244 + 68;
+}
+.coefficient {
+  width: $width244 - 189;
+  background-color: $black;
+  opacity: 0.35;
+  color: $font_white;
+  font-family: $robotoregular;
+  padding: 9px 0px 9px 0px;
+}
+.chances-block {
+  left: $width244 + 136;
+  width: $width244 - 18;
+}
+.chance-value {
+  background-color: $font_white;
+  font-family: $robotobold;
+  padding: 9px 0px 9px 13px;
+}
+.percent22 {
+  width: $width244 - 36;
+}
+.percent19 {
+  width: $width244 - 49;
+}
+.percent17 {
+  width: $width244 - 69;
+}
+.percent12 {
+  width: $width244 - 121;
+}
+.percent11 {
+  width: $width244 - 131;
+}

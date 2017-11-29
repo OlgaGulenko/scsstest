@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Roboto Condensed Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular"), url("../../fonts/RobotoCondensed-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Roboto Condensed Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url("../../fonts/RobotoCondensed-Bold.ttf") format("truetype"); }
+.yellowtext, .football-clubs li, .header {
+  color: #ffcd00; }
+
+.container, .rectangle, .header, .date-tour, .bwin-logo, .prognostic-table, .parameters, .points, .coefficients, .chances-block {
+  position: absolute; }
+
+.header, .date-tour, .parampoint, .paramcoefficient, .chance, .point, .coefficient {
+  text-align: center; }
+
+.rectangle, .parameter, .football-clubs li {
+  text-transform: uppercase; }
+
+.container {
+  background-color: black;
+  background-image: url(../../img/dark-bg_700_500.png);
+  height: 500px;
+  width: 700px; }
+
+.rectangle {
+  margin: 32px 0px;
+  width: 139px;
+  padding: 12px 23px 9px 17px;
+  font-size: 13.8px;
+  font-weight: bold;
+  background-color: #ffcd00;
+  font-stretch: condensed;
+  text-align: left;
+  font-family: 'Roboto Condensed Bold';
+  background: linear-gradient(-75deg, transparent 10px, #ffcd00 0), linear-gradient(75deg, transparent 100px, transparent 0); }
+
+.header {
+  margin: auto;
+  font-size: 25.8px;
+  font-family: "Roboto Condensed Regular";
+  height: 25px;
+  top: 70px;
+  width: 100%; }
+
+.date-tour {
+  margin: auto;
+  font-size: 19.9px;
+  font-family: "Roboto Condensed Regular";
+  color: white;
+  height: 21px;
+  top: 108px;
+  width: 100%; }
+
+.bwin-logo {
+  width: 100%;
+  height: 36px;
+  top: 167px;
+  background-image: url(../../img/bwin_logo.svg);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.prognostic-table {
+  width: 100%;
+  height: 212px;
+  top: 243px; }
+
+.parameters {
+  left: 226px;
+  width: 405px;
+  margin-top: 0px;
+  height: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  list-style-type: none; }
+
+.parameter {
+  opacity: 0.5;
+  font-family: "Roboto Condensed Regular";
+  font-size: 11.7px;
+  font-stretch: condensed;
+  letter-spacing: 0.4px;
+  color: white; }
+
+.parampoint {
+  margin: 0px 0px 10px 31px;
+  width: 42px; }
+
+.paramcoefficient {
+  margin: 0px 0px 10px 13px;
+  width: 55px; }
+
+.chance {
+  margin: 0px 0px 10px 13px;
+  width: 76px;
+  background-color: #ffcd00; }
+
+.listtype {
+  list-style-type: none; }
+
+.football-clubs {
+  width: 244px;
+  text-align: right;
+  margin-top: 25px;
+  margin-left: 13px; }
+
+.football-clubs li {
+  margin: 0px 13px 30px 0px;
+  height: 11px;
+  font-family: 'Roboto Condensed Regular';
+  font-size: 13.7px;
+  font-stretch: condensed;
+  letter-spacing: 0.4px; }
+
+.points, .coefficients, .chances-block {
+  top: 19px; }
+
+.point, .coefficient, .chance-value {
+  border-radius: 2.7px;
+  margin: 0px 13px 13px 0px;
+  height: 11px;
+  list-style-type: none;
+  font-size: 13.7px; }
+
+.points {
+  width: 42px;
+  left: 257px; }
+
+.point {
+  width: 42px;
+  background-color: #ffcd00;
+  padding: 9px 0px 9px 0px;
+  font-family: "Roboto Condensed Bold";
+  font-weight: bold; }
+
+.coefficients {
+  width: 55px;
+  left: 312px; }
+
+.coefficient {
+  width: 55px;
+  background-color: black;
+  opacity: 0.35;
+  color: white;
+  font-family: "Roboto Condensed Regular";
+  padding: 9px 0px 9px 0px; }
+
+.chances-block {
+  left: 380px;
+  width: 226px; }
+
+.chance-value {
+  background-color: white;
+  font-family: "Roboto Condensed Bold";
+  padding: 9px 0px 9px 13px; }
+
+.percent22 {
+  width: 208px; }
+
+.percent19 {
+  width: 195px; }
+
+.percent17 {
+  width: 175px; }
+
+.percent12 {
+  width: 123px; }
+
+.percent11 {
+  width: 113px; }
+
+/*# sourceMappingURL=style.css.map */
